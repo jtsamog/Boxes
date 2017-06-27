@@ -36,9 +36,7 @@ int main(int argc, const char * argv[]) {
         } else if (box2Volume > box1Volume) {
             float numberOfTimes = [box2 divideBoxWith:box1];
             NSLog(@"line %d: Box2 is %f times bigger than Box1",__LINE__, numberOfTimes);
-            
         }
-        
         
         
     }
