@@ -15,6 +15,6 @@
 
 -(instancetype)initWithHeight:(float)height Width:(float)width andLength:(float)length;
 -(float)calculateVolume;
--(float)divideBoxWith:(Box *)AnotherBox;
+-(float)divideBoxWith:(Box *)anotherBox;
 
 @end
