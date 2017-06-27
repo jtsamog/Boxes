@@ -23,4 +23,15 @@
     return self.height * self.width * self.length;
 }
 
+-(float)divideBoxWith:(Box *)AnotherBox{
+    if (self.calculateVolume > AnotherBox.calculateVolume) {
+        return  self.calculateVolume / AnotherBox.calculateVolume;
+    }
+    else
+        
+       return AnotherBox.calculateVolume / self.calculateVolume;
+        
+    
+    
+}
 @end
