@@ -12,9 +12,15 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        Box *box1 = [[Box alloc] initWithHeight:20 Width:20 andLength:20];
+    //Initialize a Box using three floats as inputs for height, width, and length
         
+    Box *box1 = [[Box alloc] initWithHeight:20 Width:20 andLength:20];
         
+    //Calculate the volume of the box and check your answer by NSLogging the box’s volume
+        
+     float box1Volume = [box1 calculateVolume];
+        
+        NSLog(@"line %d: The size of box1 is %f", __LINE__, box1Volume);
         
         
     }
